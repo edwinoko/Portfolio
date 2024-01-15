@@ -48,7 +48,6 @@ export default function experience() {
               <h3 className="font-semibold capitalize">{item.company}</h3>
               <p className="font-normal !mt-0">{item.position}</p>
 
-
               {item.summary.map((entry) => (
               <div>
                 <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
