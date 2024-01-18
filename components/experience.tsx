@@ -49,17 +49,13 @@ export default function Experience() {
               <p className="font-normal !mt-0">{item.position}</p>
 
               {item.summary.map((entry, index) => (
-              <div key={index}>
-                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                  {entry}
-                </p>
-                <br />
-              </div>    
+                <div key={index}>
+                  <p key={index} className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                    {entry}
+                  </p>
+                  <br />
+                </div>    
               ))}
-  
-
-
-
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
