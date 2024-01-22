@@ -296,8 +296,8 @@ import moves from "@/public/moves.png"
 // Projects on github and links to demos
 export const GITHUB_PROJECTS = [
     {img: goku, href:'https://github.com/edwinoko/crawler', key: 'crawler', label: 'Manga crawler', tech:['Python'], summary: 'The crawler was a quick script where manga pages are downloaded and placed in a PDF. This project was basically to get more aware with different python libraries.'},
-    {img: fgc, href:'https://github.com/edwinoko/Universal-Fighting-Game-Platform', key: 'UFGP', label: 'Universal Fighting Game Platform', tech:['Next.js','tailwindcss'], summary:'This is a small passion project where i want to create a platform for fighting game communities. This includes articles, framedata, some ranking system for matches and more'},
-    {img: moves, href:'https://github.com/edwinoko/Game-Domain-API', key: 'FGD',  label: 'Fighting Game Domain', tech: ['fastApi'], summary: 'This is the framedata part of the UFGP where i want to be able to create an API where all kinds of information regarding fighting games can be queried'},
+    {img: fgc, href:'https://github.com/edwinoko/Universal-Fighting-Game-Platform', key: 'UFGP', label: 'Universal Fighting Game Platform', tech:['Next.js','tailwindcss'], summary:'This is a small passion project where i want to create a platform for fighting game communities. This includes articles, framedata, some ranking system for matches and more.'},
+    {img: moves, href:'https://github.com/edwinoko/Game-Domain-API', key: 'FGD',  label: 'Fighting Game Domain', tech: ['fastApi'], summary: 'This is the framedata part of the UFGP where i want to be able to create an API where all kinds of information regarding fighting games can be queried.'},
 ];
 
 
